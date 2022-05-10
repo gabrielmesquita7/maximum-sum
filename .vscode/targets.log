@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 10 16:44:41 2022
+# Make data base, printed on Tue May 10 17:00:09 2022
 
 # Variables
 
@@ -43,7 +43,7 @@ GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/gabriel/Área de Trabalho/kadane_algorithm
+CURDIR := /home/gabriel/Área de Trabalho/maximum-sum
 # makefile
 SHELL = /bin/sh
 # environment
@@ -87,7 +87,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = pt_BR.UTF-8
 # environment
-VSCODE_CWD = /home/gabriel/Área de Trabalho/kadane_algorithm
+VSCODE_CWD = /home/gabriel/Área de Trabalho/maximum-sum
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
 # default
@@ -137,7 +137,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-PWD = /home/gabriel/Área de Trabalho/kadane_algorithm
+PWD = /home/gabriel/Área de Trabalho/maximum-sum
 # default
 .LOADED := 
 # environment
@@ -195,7 +195,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ff544dd1-e9fa-4d4a-bd99-52d8af55b9c4.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c13ca46b-6e2d-4f4c-b5d8-d0a0283b9d8a.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -259,11 +259,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/0b90fdd4_5731_4acf_a67e_78f1a5e3b767
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a894360f_2f09_4c21_985b_1267402d0249
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.4419
+GNOME_TERMINAL_SERVICE = :1.4502
 # default
 SUFFIXES := 
 # environment
@@ -287,7 +287,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 106979
+VSCODE_PID = 110158
 # environment
 DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=1c619e76f93c088261d640206273b179
 # makefile (from 'Makefile', line 6)
@@ -301,14 +301,14 @@ APP_DIR := ./build/
 
 # Directories
 
- 
-# . (device 66308, inode 1228883): 7 files, no impossibilities.
-# src (device 66308, inode 1221210): 5 files, no impossibilities.
+# . (device 66308, inode 1212476): 8 files, no impossibilities.
+# src (device 66308, inode 1229061): 5 files, no impossibilities.
 
-# 12 files, no impossibilities in 2 directories.
+# 13 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
+ 
 build/objects/%.o: %.cpp
 #  recipe to execute (from 'Makefile', line 16):
 	@mkdir -p $(@D)
@@ -342,7 +342,7 @@ all: build build//app
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-03 13:51:27.537471992
+#  Last modified 2022-05-10 16:59:23.324596678
 #  File has been updated.
 #  Successfully updated.
 
@@ -449,9 +449,9 @@ clean:
 # strcache buffers: 1 (0) / strings = 26 / storage = 214 B / avg = 8 B
 # current buf: size = 8162 B / used = 214 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 55 / hit rate = 52%
+# strcache performance: lookups = 56 / hit rate = 53%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=2/55=4%
-# Finished Make data base on Tue May 10 16:44:41 2022
+# Load=26/8192=0%, Rehash=0, Collisions=2/56=4%
+# Finished Make data base on Tue May 10 17:00:09 2022
 
  
